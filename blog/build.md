@@ -191,13 +191,30 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/.vitepress/dist
+          path: .vitepress/dist
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/deploy-pages@v4
+```
+
+**⚠️ 重要提示：路径配置**
+
+上面的配置假设 VitePress 配置文件在 `docs/.vitepress/` 目录下。如果你的项目结构是：
+
+```
+.
+├── .vitepress/     # 配置在根目录
+├── index.md
+└── blog/
+```
+
+那么需要将 `path` 改为：
+
+```yaml
+path: .vitepress/dist
 ```
 
 ---
@@ -244,10 +261,12 @@ https://你的用户名.github.io
 
 # 🎨 优化网站外观
 
-修改：
+修改 VitePress 配置文件（根据你的项目结构选择）：
 
 ```
-docs/.vitepress/config.ts
+.vitepress/config.mts        # 如果在根目录
+或
+docs/.vitepress/config.ts    # 如果在 docs 目录
 ```
 
 简单示例：
