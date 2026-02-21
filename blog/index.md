@@ -4,5 +4,8 @@
 
 
 
+常用命令
+- npm run docs:dev
+
 
 [首页主题参考](https://vitepress.dev/reference/default-theme-home-page)

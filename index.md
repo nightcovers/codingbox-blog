@@ -11,10 +11,13 @@ hero:
   actions:
     - theme: brand
       text: WeClone
-      link: /weclone
+      link: weclone.love
     - theme: alt
       text: Agent
       link: /agent
+    - theme: alt
+      text: 博客搭建
+      link: /blog
 
 features:
   - title: Feature A
@@ -23,5 +26,14 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
----
+
+
+大模型供应商
+- 智谱，https://bigmodel.cn/
+
+科学上网
+- 花网，https://huacloud.dev/
+
+内网穿透
+- 樱花，https://www.natfrp.com/
 
