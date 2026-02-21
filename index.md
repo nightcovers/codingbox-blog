@@ -1,18 +1,20 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
+# https://wuboxin98.github.io/
+
 layout: home
 
 hero:
-  name: "CodingBox"
-  text: "写代码的盒子"
-  tagline: My great project tagline
+  name: "Boxin"
+  text: "泊心的个人博客"
+  tagline: 建设ing
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: WeClone
+      link: /weclone
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Agent
+      link: /agent
 
 features:
   - title: Feature A

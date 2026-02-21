@@ -3,31 +3,30 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // base: '/codingbox-blog/',
-  title: "CodingBox",
+  title: "Boxin",
   description: "写代码的盒子",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Docs', link: '/docs' },
-      { text: 'Blog', link: '/blog' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '主页', link: '/' },
+      { text: 'Agent', link: '/agent' },
+      { text: '生活', link: '/life' }
     ],
 
     sidebar: {
-      // 当访问 /docs/ 路径下的页面时，显示这个侧边栏
-      '/docs/': [
+      // 当访问 /agent/ 路径下的页面时，显示这个侧边栏
+      '/agent/': [
         {
           text: '文档指南',
           items: [
-            { text: '快速开始', link: '/docs/getting-started' },
-            { text: '配置说明', link: '/docs/configuration' }
+            { text: '快速开始', link: '/agent/getting-started' },
+            { text: '配置说明', link: '/agent/configuration' }
           ]
         }
       ],
       
       // 当访问 /guide/ 路径下的页面时，显示另一个侧边栏
-      '/guide/': [
+      '/life/': [
         {
           text: '使用教程',
           items: [
