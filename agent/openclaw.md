@@ -10,6 +10,10 @@ open clawd实践帖子
 - 教程 [🔥玩转OpenClaw｜云上OpenClaw(Clawdbot)快速接入飞书指南](https://cloud.tencent.com/developer/article/2626151)
 - 成本 199元，时间1h。
 
+
+进阶玩法
+- [半个月，烧了500美金，我终于把OpenClaw折腾成了真干活的AI员工](https://zi6nfl20s5u.feishu.cn/wiki/JEF7wyBfzigEthkYwJfcy1I0n9b)
+
 以及附以下原理和分析贴
 - 腾讯云[🔥🔥🔥玩转OpenClaw｜云上OpenClaw(Clawdbot)最全实践教程合辑](https://cloud.tencent.com/developer/article/2624973)
 - 火山[目前最详细的OpenClaw工作原理解析，附应用生态及相关资源](https://developer.volcengine.com/articles/7603212470212689929)
